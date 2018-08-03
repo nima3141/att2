@@ -13,6 +13,5 @@ spec:
       containers:
       - name: citest
         image: nima3141/att1:latest
-        command: ["/bin/echo", "hello"]
         
       
