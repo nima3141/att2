@@ -12,6 +12,6 @@ spec:
     spec:
       containers:
       - name: citest
-        image: nima3141/att1:latest
+        image: nginx
         
       
