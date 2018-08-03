@@ -11,9 +11,8 @@ spec:
         app: citest
     spec:
       containers:
-      - args:
-        - echo "hello"
-        name: citest
+      - name: citest
         image: nima3141/att1:latest
+        command: ["/bin/echo", "hello"]
         
       
