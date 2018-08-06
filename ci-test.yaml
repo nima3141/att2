@@ -12,6 +12,6 @@ spec:
     spec:
       containers:
       - name: citest
-        image: nginx
+        image: 216734445993.dkr.ecr.eu-central-1.amazonaws.com/r3pi-vi:latest
         
       
